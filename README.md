@@ -429,7 +429,7 @@ Team_DE/
 
 Подключитесь к вашей ВМ по SSH и выполните начальную настройку.
 
-# 1. Подключение
+1. Подключение
 
 ```
 ssh ваш_пользователь@<IP_АДРЕС_ВМ>
@@ -437,7 +437,7 @@ ssh ваш_пользователь@<IP_АДРЕС_ВМ>
 
 
 
-# 2. Обновление пакетов
+2. Обновление пакетов
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -445,7 +445,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-# 3. Установка Python, pip, git и сетевых утилит
+3. Установка Python, pip, git и сетевых утилит
 
 ```
 sudo apt install -y python3 python3-pip python3-venv git net-tools curl
